@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+    <title>¡Responde! 😠</title>
+</head>
+
+<body>
+    <!-- Página inicial -->
+    <div id="questionPage" class="page-container">
+        <div class="question-container">
+            <img src="multimedia/inicio.gif" class="gif-top" alt="Corazón animado">
+            <h2 class="question">¿De verdad me querés? 👉👈</h2>
+            <div class="button-container">
+                <button class="btn yes-btn" id="yesBtn">Sí</button>
+                <button class="btn no-btn" id="noBtn">No</button>
+            </div>
+            <p class="attempt-counter hidden" id="attemptCounter">Intentos: <span id="count">0</span></p>
+        </div>
+    </div>
+
+    <!-- Página resultado SÍ -->
+    <div id="yesPage" class="page-container hidden">
+        <div class="result-container">
+            <img src="multimedia/mocha&milk.gif" class="gif-final" alt="Celebración de amor">
+            <h1>Ya sabía 🤭</h1>
+            <h2>❤️ Ti amu, mamor ❤️</h2>
+        </div>
+    </div>
+
+    <!-- Página resultado NO -->
+    <div id="noPage" class="page-container hidden">
+        <div class="result-container">
+            <img src="multimedia/vegetaTriste.gif" class="gif-final" alt="Tristeza">
+            <h1>Ya veo… 😔</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>
